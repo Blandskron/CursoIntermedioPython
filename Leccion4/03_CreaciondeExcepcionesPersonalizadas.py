@@ -1,5 +1,13 @@
+"""
+03 CreaciondeExcepcionesPersonalizadas.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 # Ejemplo de creación de excepción personalizada en Python
 class MiError(Exception):
+    # Función __init__: implementa una parte específica del flujo de ejemplo.
     def __init__(self, mensaje):
         self.mensaje = mensaje
 

@@ -1,3 +1,10 @@
+"""
+03 SerializacionconPickle.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import pickle
 
 # Ejemplo de serialización de un objeto Python con Pickle

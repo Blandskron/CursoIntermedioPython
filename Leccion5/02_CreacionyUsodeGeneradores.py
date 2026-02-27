@@ -1,3 +1,10 @@
+"""
+02 CreacionyUsodeGeneradores.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 # Ejemplo de creación de un generador en Python
 def generador_pares(maximo):
     num = 0

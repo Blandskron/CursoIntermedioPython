@@ -1,3 +1,10 @@
+"""
+02 ProgramacionAsincronaconAsyncio.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import asyncio
 
 # Función asíncrona que simula contar hasta un número

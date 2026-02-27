@@ -1,3 +1,10 @@
+"""
+app.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -10,11 +17,13 @@ entradas = [
 
 # Ruta para obtener todas las entradas de blog
 @app.route('/api/entradas', methods=['GET'])
+# Función obtener_entradas: implementa una parte específica del flujo de ejemplo.
 def obtener_entradas():
     return jsonify(entradas)
 
 # Ruta para obtener una entrada específica por su ID
 @app.route('/api/entradas/<int:entrada_id>', methods=['GET'])
+# Función obtener_entrada: implementa una parte específica del flujo de ejemplo.
 def obtener_entrada(entrada_id):
     entrada = next((e for e in entradas if e["id"] == entrada_id), None)
     if entrada:
@@ -24,6 +33,7 @@ def obtener_entrada(entrada_id):
 
 # Ruta para crear una nueva entrada de blog
 @app.route('/api/entradas', methods=['POST'])
+# Función crear_entrada: implementa una parte específica del flujo de ejemplo.
 def crear_entrada():
     nueva_entrada = {
         "id": len(entradas) + 1,
@@ -35,6 +45,7 @@ def crear_entrada():
 
 # Ruta para actualizar una entrada de blog existente por su ID
 @app.route('/api/entradas/<int:entrada_id>', methods=['PUT'])
+# Función actualizar_entrada: implementa una parte específica del flujo de ejemplo.
 def actualizar_entrada(entrada_id):
     entrada = next((e for e in entradas if e["id"] == entrada_id), None)
     if entrada:
@@ -46,6 +57,7 @@ def actualizar_entrada(entrada_id):
 
 # Ruta para eliminar una entrada de blog por su ID
 @app.route('/api/entradas/<int:entrada_id>', methods=['DELETE'])
+# Función eliminar_entrada: implementa una parte específica del flujo de ejemplo.
 def eliminar_entrada(entrada_id):
     global entradas
     entradas = [e for e in entradas if e['id'] != entrada_id]

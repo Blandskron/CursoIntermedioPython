@@ -1,5 +1,13 @@
+"""
+02 DecoradorparaVerificarParametros.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 # Definición del decorador
 def verificar_enteros(funcion):
+    # Función wrapper: implementa una parte específica del flujo de ejemplo.
     def wrapper(*args, **kwargs):
         if all(isinstance(arg, int) for arg in args):
             resultado = funcion(*args, **kwargs)
@@ -10,6 +18,7 @@ def verificar_enteros(funcion):
 
 # Uso del decorador
 @verificar_enteros
+# Función sumar: implementa una parte específica del flujo de ejemplo.
 def sumar(a, b):
     return a + b
 

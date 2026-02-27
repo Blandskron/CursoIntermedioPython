@@ -1,3 +1,10 @@
+"""
+04 GeneradordeFibonacci.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 # Ejemplo de generador de la secuencia Fibonacci en Python
 def fibonacci(maximo):
     a, b = 0, 1

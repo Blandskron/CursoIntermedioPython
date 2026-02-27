@@ -1,3 +1,10 @@
+"""
+03 ExtracciondePalabrasClavedeunTexto.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import re
 
 # Texto de ejemplo que contiene palabras clave entre paréntesis

@@ -1,7 +1,15 @@
+"""
+01 DecoradorparaMedirTiempodeEjecucion.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import time
 
 # Definición del decorador
 def calcular_tiempo_ejecucion(funcion):
+    # Función wrapper: implementa una parte específica del flujo de ejemplo.
     def wrapper(*args, **kwargs):
         inicio = time.time()
         resultado = funcion(*args, **kwargs)
@@ -12,6 +20,7 @@ def calcular_tiempo_ejecucion(funcion):
 
 # Uso del decorador
 @calcular_tiempo_ejecucion
+# Función factorial: implementa una parte específica del flujo de ejemplo.
 def factorial(n):
     if n == 0 or n == 1:
         return 1
