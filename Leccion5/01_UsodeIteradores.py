@@ -1,3 +1,10 @@
+"""
+01 UsodeIteradores.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 # Ejemplo de uso de iteradores en Python
 iterable = [1, 2, 3, 4, 5]
 iterador = iter(iterable)

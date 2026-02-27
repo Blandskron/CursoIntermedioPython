@@ -1,3 +1,10 @@
+"""
+01 Peticiones-HTTP-conRequests.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import requests
 
 # Ejemplo de petición GET a una API pública (JSONPlaceholder)

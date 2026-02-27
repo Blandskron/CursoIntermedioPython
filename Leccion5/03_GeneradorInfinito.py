@@ -1,3 +1,10 @@
+"""
+03 GeneradorInfinito.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 # Ejemplo de generador infinito en Python
 def generador_infinito():
     num = 1

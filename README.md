@@ -1,115 +1,74 @@
 # Curso Intermedio de Python
 
-## 1. Estructuras de Datos Avanzadas
+Repositorio educativo con ejemplos progresivos para reforzar fundamentos intermedios de Python, desde estructuras de datos hasta consumo de APIs y un proyecto con Flask.
 
-### - Pilas y Colas
-   - Definición y características
-   - Implementación en Python
-   
-### - Listas Enlazadas
-   - Concepto y tipos de listas enlazadas
-   - Implementación básica
+## Objetivos del repositorio
 
-## 2. Programación Orientada a Objetos (POO)
+- Consolidar conceptos de nivel intermedio con código corto y directo.
+- Mostrar patrones reutilizables (POO, manejo de errores, generadores, decoradores, concurrencia, etc.).
+- Facilitar el autoestudio mediante ejemplos comentados y documentación navegable.
 
-### - Clases y Objetos
-   - Creación de clases y objetos en Python
-   - Atributos y métodos de instancia
+## Estructura del curso
 
-### - Métodos y Atributos
-   - Métodos estáticos y de clase
-   - Atributos de clase y de instancia
+| Lección | Tema | Archivos principales |
+|---|---|---|
+| 1 | Estructuras de datos (pilas, colas, lista enlazada) | `Leccion1/*.py`, `Leccion1/Leccion1.md` |
+| 2 | POO: clases, métodos y atributos | `Leccion2/*.py`, `Leccion2/Leccion2.md` |
+| 3 | Herencia y sobrescritura | `Leccion3/*.py`, `Leccion3/Leccion3.md` |
+| 4 | Excepciones y errores personalizados | `Leccion4/*.py`, `Leccion4/Leccion4.md` |
+| 5 | Iteradores y generadores | `Leccion5/*.py`, `Leccion5/Leccion5.md` |
+| 6 | Decoradores en funciones y clases | `Leccion6/*.py`, `Leccion6/Leccion6.md` |
+| 7 | Expresiones regulares | `Leccion7/*.py`, `Leccion7/Leccion7.md` |
+| 8 | CSV, JSON y Pickle | `Leccion8/*.py`, `Leccion8/Leccion8.md` |
+| 9 | Módulos, paquetes y distribución | `Leccion9/**/*.py`, `Leccion9/Leccion9.md` |
+| 10 | Concurrencia: threads y asyncio | `Leccion10/*.py`, `Leccion10/Leccion10.md` |
+| 11 | Requests y APIs REST | `Leccion11/*.py`, `Leccion11/Leccion11.md` |
+| 12 | Proyecto: gestor y API con Flask | `Leccion12/*.py`, `Leccion12/Leccion12.md` |
 
-### - Herencia y Polimorfismo
-   - Herencia simple y múltiple
-   - Sobrescritura de métodos
-   
-## 3. Manejo de Excepciones
+## Requisitos recomendados
 
-### - Captura y Manejo de Excepciones
-   - Estructura try-except
-   - Bloques finally y else
+- Python 3.10+
+- `pip` actualizado
+- Entorno virtual (`venv`) para ejecutar ejemplos con dependencias externas
 
-### - Creación de Excepciones Personalizadas
-   - Definición de excepciones personalizadas
-   - Uso de raise para lanzar excepciones
+## Ejecución rápida
 
-## 4. Iteradores y Generadores
+```bash
+# Crear y activar entorno virtual (Linux/macOS)
+python -m venv .venv
+source .venv/bin/activate
 
-### - Uso de Iteradores
-   - Protocolo de iteración en Python
-   - Creación de iteradores personalizados
-   
-### - Creación y Uso de Generadores
-   - Funciones generadoras en Python
-   - Ventajas de los generadores
+# Dependencias habituales de ejemplos de red/API
+pip install requests flask
 
-## 5. Decoradores
+# Ejecutar cualquier archivo de ejemplo
+python Leccion1/01_Pilas-Stacks.py
+python Leccion10/02_ProgramacionAsincronaconAsyncio.py
+python Leccion12/app.py
+```
 
-### - Funciones Decoradoras
-   - Concepto y aplicación en Python
-   - Decoradores con argumentos
+## Mejora de documentación aplicada
 
-### - Decoradores Aplicados a Clases
-   - Uso de decoradores en métodos de clase
-   - Patrones de diseño con decoradores
+Se realizó una mejora global de documentación para maximizar claridad:
 
-## 6. Expresiones Regulares
+- Se añadió encabezado explicativo en **todos los archivos Python**.
+- Se agregaron comentarios guía sobre clases y funciones para facilitar el aprendizaje.
+- Se incorporó una guía transversal adicional en `DOCUMENTACION.md` con recomendaciones por tema.
 
-### - Uso de Expresiones Regulares
-   - Sintaxis básica y metacaracteres
-   - Métodos del módulo `re`
+## Ruta de aprendizaje sugerida
 
-### - Búsqueda y Manipulación de Textos
-   - Aplicación de expresiones regulares en Python
-   - Extracción y sustitución de patrones
+1. Completa Lección 1 a 4 para bases sólidas (estructuras, POO, excepciones).
+2. Continúa con Lección 5 a 8 (iteración, decoradores, regex, archivos).
+3. Avanza a Lección 9 a 12 para modularidad, concurrencia y APIs reales.
 
-## 7. Archivos Avanzados
+## Contribuciones
 
-### - Manejo de Archivos CSV y JSON
-   - Lectura y escritura de archivos CSV
-   - Operaciones con archivos JSON
+Si deseas mejorar ejemplos o documentación:
 
-### - Serialización con Pickle
-   - Uso de Pickle para serializar objetos en Python
-   - Persistencia de datos estructurados
+1. Crea una rama.
+2. Realiza cambios por lección (idealmente pequeños y enfocados).
+3. Abre un PR con descripción de propósito, alcance y validación ejecutada.
 
-## 8. Módulos y Paquetes
+---
 
-### - Creación de Módulos y Paquetes
-   - Organización de código en módulos
-   - Estructura de paquetes en Python
-
-### - Distribución de Paquetes con pip
-   - Creación de distribuciones de paquetes
-   - Instalación y gestión con pip
-
-## 9. Introducción a la Concurrencia
-
-### - Hilos (Threads) en Python
-   - Creación y manejo de hilos
-   - Comunicación entre hilos
-
-### - Programación Asíncrona con asyncio
-   - Conceptos básicos de programación asíncrona
-   - Uso del módulo `asyncio` en Python
-
-## 10. Trabajando con APIs
-
-### - Peticiones HTTP con requests
-   - Realización de peticiones GET, POST, PUT y DELETE
-   - Manipulación de respuestas JSON
-
-### - Consumo de APIs RESTful
-   - Diseño y consumo de APIs RESTful
-   - Ejemplos prácticos de integración
-
-## 11. Proyectos Prácticos Intermedios
-
-### - Proyecto 1: Gestor de Tareas
-   - Desarrollo de una aplicación para gestionar tareas
-   - Implementación de CRUD básico
-
-### - Proyecto 2: API para un Blog Simple
-   - Creación de una API RESTful para gestionar entradas de un blog
-   - Operaciones CRUD con Flask
+Este repositorio prioriza código didáctico, legible y fácilmente extensible.

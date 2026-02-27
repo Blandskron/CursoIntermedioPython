@@ -1,3 +1,10 @@
+"""
+02 ManejodeArchivosJSON.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import json
 
 # Ejemplo de escritura de datos en un archivo JSON

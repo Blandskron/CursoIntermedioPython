@@ -1,3 +1,10 @@
+"""
+01 ManejodeArchivosCSV.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import csv
 
 # Ejemplo de escritura de datos en un archivo CSV

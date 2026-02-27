@@ -1,3 +1,10 @@
+"""
+01 CapturaBasicadeExcepciones.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 # Ejemplo de captura básica de excepciones en Python
 try:
     num = int(input("Ingrese un número entero: "))

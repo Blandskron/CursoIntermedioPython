@@ -1,3 +1,10 @@
+"""
+02 ConsumodeAPIRESTFULconrequests.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import requests
 
 # GET request para obtener información de un recurso

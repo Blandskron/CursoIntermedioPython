@@ -1,3 +1,10 @@
+"""
+setup.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 from setuptools import setup, find_packages
 
 setup(

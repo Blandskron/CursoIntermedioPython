@@ -1,3 +1,10 @@
+"""
+02 ValidaciondeCorreosElectronicos.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import re
 
 # Lista de correos electrónicos de ejemplo

@@ -1,3 +1,10 @@
+"""
+01 Hilos-Threads.
+
+Archivo didáctico del curso intermedio de Python.
+Incluye comentarios y ejemplos para facilitar su estudio paso a paso.
+"""
+
 import threading
 import time
 
